@@ -4,13 +4,153 @@
     <Filter Include="Source">
       <UniqueIdentifier>{54cd2ac6-fd30-418e-98e9-7f6da018d5dd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="h">
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{974459e0-478f-427d-9cd9-d6007844097a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{f3002399-3dab-49f3-aaf6-5f70c8596508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{5e9d0fdc-f4f2-4bb1-9e8a-481682c42c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{946a5ef3-fa66-430c-92aa-8da3a4149ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
       <UniqueIdentifier>{f2d3ff6b-27d1-4889-b106-bbe79d40627a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VehHook">
+      <UniqueIdentifier>{98149314-3c35-43b1-b66a-4b193dc8c185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{5800f2b7-6181-4900-bd4b-ccfcbd546ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors">
+      <UniqueIdentifier>{30a3216e-3ee8-473f-8a5e-f3acd9ef9c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{5b496e24-aeb3-4be5-9ef4-66b1c3d83446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordHook">
+      <UniqueIdentifier>{88c36fa8-91a4-4398-9efd-da642f594b4a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordHook.cpp">
+      <Filter>DiscordHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="VEHHook.cpp">
+      <Filter>VehHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_rect_pack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\stb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordHook.h">
+      <Filter>DiscordHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VEHHook.h">
+      <Filter>VehHook</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr_.hpp">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="syscall.asm" />
   </ItemGroup>
 </Project>
